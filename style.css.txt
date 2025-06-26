@@ -1,0 +1,197 @@
+/* --- VARIABLES Y ESTILOS GLOBALES --- */
+:root {
+    --primary-color: #d9a7c7; /* Un púrpura suave */
+    --secondary-color: #fffcdc; /* Un rosa muy pálido, casi crema */
+    --accent-color: #efb7d7;
+    --text-color: #4a4a4a; /* Un gris oscuro para buena legibilidad */
+    --heading-font: 'Dancing Script', cursive;
+    --body-font: 'Montserrat', sans-serif;
+}
+
+/* Suaviza el desplazamiento al hacer clic en los atajos */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+    background-color: #fdf6f9; /* Un fondo rosa muy muy claro */
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* --- SECCIÓN DE BIENVENIDA (HERO) --- */
+.hero {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    padding: 40px 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.brand-name {
+    font-family: var(--heading-font);
+    font-size: 3.5em;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 10px 0 0 0;
+}
+
+.tagline, .intro-text {
+    font-size: 1.2em;
+    color: #6a4f63;
+    margin: 5px 0;
+}
+
+.intro-text {
+    font-weight: 600;
+}
+
+/* --- ATAJOS DE NAVEGACIÓN --- */
+.shortcuts {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.shortcuts a {
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.shortcuts a:hover {
+    background-color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --- BOTÓN DE LLAMADA A LA ACCIÓN (CTA) --- */
+.cta-button {
+    display: inline-block;
+    background-color: #8c5a7e;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(140, 90, 126, 0.4);
+}
+
+.cta-button:hover {
+    background-color: #6a4f63;
+    transform: scale(1.05);
+}
+
+/* --- SECCIÓN DE SERVICIOS --- */
+#servicios {
+    padding-top: 40px;
+}
+
+.section-title {
+    font-family: var(--heading-font);
+    font-size: 3em;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+.service-card h3 {
+    font-family: var(--heading-font);
+    font-size: 2em;
+    color: var(--text-color);
+    margin-top: 0;
+}
+
+.service-card ul {
+    list-style-type: '♡ ';
+    padding-left: 20px;
+}
+
+.service-card li {
+    margin-bottom: 10px;
+}
+
+/* --- PIE DE PÁGINA --- */
+.footer {
+    background-color: #f5e6ef;
+    padding: 40px 20px;
+    margin-top: 40px;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.footer h3 {
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin: 0 0 10px 0;
+    color: var(--text-color);
+}
+
+.footer .social-links {
+    margin: 20px 0;
+}
+
+.footer .social-links a {
+    color: #8c5a7e;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer .copyright {
+    font-size: 0.9em;
+    color: #999;
+    margin-top: 20px;
+}
+
+/* --- DISEÑO RESPONSIVO (PARA MÓVILES) --- */
+@media (max-width: 768px) {
+    .brand-name {
+        font-size: 2.5em;
+    }
+
+    .shortcuts {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .shortcuts a {
+        width: 80%;
+        text-align: center;
+    }
+}

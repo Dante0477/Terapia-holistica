@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alma en Armonía - Terapias Holísticas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <img src="Gemini_Generated_Image_z99nzsz99nzsz99n.jpg" alt="Logo de Alma en Armonía" class="logo">
+            <h1 class="brand-name">Alma en Armonía</h1>
+            <h2 class="tagline">Mariana | Master en Terapias Holísticas</h2>
+            <p class="intro-text">Te ayudo a desbloquearte y sanar</p>
+
+            <nav class="shortcuts">
+                <a href="#limpieza">Limpieza Energética</a>
+                <a href="#reiki">Reiki</a>
+                <a href="#rituales">Rituales con Velas</a>
+                <a href="#tarot">Tarot</a>
+            </nav>
+
+            <a href="https://wa.me/541140975968" class="cta-button" target="_blank">Agendar Cita por WhatsApp</a>
+        </div>
+    </header>
+
+    <main id="servicios" class="container">
+        <h2 class="section-title">Mis Servicios</h2>
+
+        <section id="limpieza" class="service-card">
+            <div class="service-text">
+                <h3>Terapia de Limpieza Energética</h3>
+                <ul>
+                    <li>Eliminación de energías negativas</li>
+                    <li>Desbloqueos personales</li>
+                    <li>Armonización de chacras</li>
+                    <li>Apertura de caminos y más...</li>
+                </ul>
+            </div>
+            </section>
+
+        <section id="reiki" class="service-card">
+            <div class="service-text">
+                <h3>Reiki y Armonización</h3>
+                <p>La sesión incluye:</p>
+                <ul>
+                    <li>Testeo de los chakras</li>
+                    <li>Alineación y Armonización de los chakras</li>
+                    <li>Envío de Reiki</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="rituales" class="service-card">
+            <div class="service-text">
+                <h3>Rituales con Velas</h3>
+                <ul>
+                    <li>Amor Propio</li>
+                    <li>Endulzamiento</li>
+                    <li>Aperturas de caminos</li>
+                    <li>Estudio y Ventas/dinero</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="tarot" class="service-card">
+            <div class="service-text">
+                <h3>Tarot</h3>
+                <ul>
+                    <li>Lecturas generales y Consultas específicas</li>
+                    <li>Consejos de los oráculos</li>
+                    <li>(Puedes elegir entre baraja Rider-Waite o Lenormand)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <h3>Alma en Armonía</h3>
+            <p>Encuentra tu equilibrio y transforma tu energía.</p>
+            <a href="https://wa.me/541140975968" class="cta-button" target="_blank">Contactar por WhatsApp</a>
+            <div class="social-links">
+                <a href="https://www.instagram.com/almaenarmonia2/" target="_blank">Sigueme en Instagram</a>
+            </div>
+            <p class="copyright">&copy; 2025 Alma en Armonía. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
